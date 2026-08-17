@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import AdminStyles from './AdminStyles.module.css'
 import { NavLink, Outlet, useNavigate } from 'react-router-dom';
-import Sidebar from './sidebar';
+import Sidebar from './Sidebar';
 import axios from 'axios';
 import { store } from '../App';
 
