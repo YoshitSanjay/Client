@@ -25,7 +25,7 @@ const Footer = () => {
                 <p>1234567890</p>
             </div>
             <div className="col">
-                <h4 className='pt-3 fw-bold'>Categories</h4>
+                <h4 className='pt-3'>Categories</h4>
                 <ul className='list-unstyled'>
                     {
                     data.map((sdata)=> (
@@ -37,14 +37,14 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="col">
-                <h4 className='pt-3 fw-bold'>Menu</h4>
+                <h4 className='pt-3'>Menu</h4>
                 <ul className='list-unstyled'>
                     <li><NavLink to="/aboutus" className="text-decoration-none text-white">About us</NavLink></li>
                     <li><NavLink to="/contactus" className="text-decoration-none text-white">Contact us</NavLink></li>
                 </ul>
             </div>
             <div className="col-6 col-lg-3">
-                <h4 className='pt-3 fw-bold'>Social Media</h4>
+                <h4 className='pt-3'>Social Media</h4>
                 <div>
                     <NavLink className="text-decoration-none text-danger" to="https://www.instagram.com/bmw/?hl=en" target='_blank' rel='noopener noreferrer'><i className='bi bi-instagram fs-2 me-3'></i></NavLink>
                     <NavLink className="text-decoration-none" to="https://www.facebook.com/bmwindia/" target='_black' rel='noopener noreferrer'><i className='bi bi-facebook fs-2 me-3'></i></NavLink>
