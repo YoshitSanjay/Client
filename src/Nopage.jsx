@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Styles from './innerStyles.module.css'
 
 const Nopage = () => {
   return (
