@@ -101,6 +101,7 @@ const BookAppointment = () => {
                   </div>
                 </div>
                 <div className='col-md-6'>
+                <div className='mb-4'>
                   <select name="service" value={data.service} onChange={changeHandler} className='form-control'>
                     <option value="">Select service</option>
                     {
@@ -112,10 +113,13 @@ const BookAppointment = () => {
                     }
                   </select>
                   </div>
+                  </div>
                 <div className='col-md-6'>
+                  <div className='mb-4'>
                   <div className={innerStyles.priceBox}>
                       <span>$</span>
                   <input type="Number" name="price" value={data.price} readOnly placeholder='Price' className='form-control'/>
+                  </div>
                   </div>
                 </div>
                 <div className='col-md-6'>
