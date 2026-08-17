@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.bread {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("img.jpg");
+    background-size: cover;
+    background-position: center ;
+}
+
+
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(225 , 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+
+
+.wrapper h1{
+    font-size: 38px;
+    text-align:  center;
+    color: #fc0000;
+}
+
+
+.int {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+
+.int input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    box-shadow: 0 0 10px rgba(225 , 255, 255, .2);
+    border-color: #fc0000;
+}
+
+.int input::placeholder {
+    color: #ece4e4;
+}
+
+.int i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fc0000;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+.remember label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember a:hover{
+    text-decoration: underline;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 45px;
+    background-color: #fc0000;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255, 242, 242, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.wrapper button:hover{
+    color: #000000;
+    letter-spacing: 1.5px;
+    transform: translateX(2px);
+}
+.wrap  {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.wrap p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.wrap a{
+    margin-left: 3px;
+}
+ 
+.wrap p a:hover {
+    text-decoration: underline;
+}
+
+
+
+.bun h1{
+    padding: 20px 0px;
+    text-align:left;
+    color: #F3F4F6 ;
+    font-size: 160%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
+.bun {
+    background-color: #22252A;
+}
+
+.bun button {
+    min-width: 120px;
+    padding: 7px 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: large;
+    color: #22252A;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bun button:hover {
+    opacity: 0.9;
+    transform: translate3d(8px);
+    letter-spacing: 1.5px;
+}
+
+.sidz {
+    display: flex;
+    justify-content: flex-start;
+    margin: 12px 10px;
+    padding: 10px 0;
+    background: #000;
+    color: white;
+}
+
+.sidz ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+.sidz li {
+    margin-bottom: 12px;
+    padding: 8px 25px 8px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.sidz a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: cursive;
+    line-height: 40px;
+    transition: all 0.3s ease;
+}
+
+.sidz li:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateX(8px);
+}
+
+.sidz a:hover {
+    color: #ff0000;
+    letter-spacing: 0.5px;
+}
+
+.gohan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center ;
+}
+
+.rapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.844);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #000;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.rapper h1{
+    font-size: 30px;
+    text-align:  center;
+}
+
+.in {
+  position: relative;
+  width: 100%;
+  height: auto;         
+  margin: 20px 0;     
+}
+
+.in input,
+.in select{
+  width: 100%;
+  height: 50px;      
+  background: transparent;
+  outline: none;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 16px;
+  appearance: auto;
+  color: #000;
+  padding: 0 20px;   
+  box-shadow: 0 0 10px rgba(225 , 255, 255, .2);
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+
+
+.in textarea {
+  width: 100%;
+  min-height: 100px; 
+  background: transparent;
+  outline: none;
+  border: 2px solid #000;
+  font-size: 16px;
+  color: #000;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(225 , 255, 255, .2);
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  border-radius: 10px;
+  resize: vertical;  
+}
+
+.in input::placeholder{
+    color: #000000;
+}
+.in textarea::placeholder {
+    color: #000000;
+}
+
+
+.rapper button {
+    width: 100%;
+    height: 45px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.rapper button:hover{
+    color: #ff0000;
+    opacity: 0.9;
+    transform: translateY(2px);
+    letter-spacing: 0.5px;
+}
+
+.tablePage {
+    padding: 24px;
+    background: #f7f7f7;
+    min-height: 100vh;
+}
+
+.tablePage h2 {
+    font-family:fantasy;
+    margin-bottom: 16px;
+    color: #222;
+}
+
+.tableWrapper {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 12px;
+}
+
+.table {
+    width: auto;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left !important;
+}
+
+.table th {
+    background: #f3f4f6;
+    color: #374151;
+}
+
+.actionBtn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.deleteBtn {
+    color: #fff;
+}
+
+
+
+.priceBox {
+  position: relative;
+}
+
+.priceBox span {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  color:#000;
+}
+
+.priceBox input {
+  padding-left: 28px;
+}
