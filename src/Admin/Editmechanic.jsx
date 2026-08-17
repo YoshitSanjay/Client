@@ -57,7 +57,7 @@ const Editmechanic = () => {
                             <input type="text" name="speciality" value={data.speciality} onChange={changemechanicData} className='form-control'/>
                           </div>
                           <div className='mb-2'>
-                            <button className='btn btn-dark' type='submit'>ADD SERVICE</button>
+                            <button className='btn btn-dark' type='submit'>EDIT MECH.DETAILS</button>
                           </div>
                           </div>
                         </form>

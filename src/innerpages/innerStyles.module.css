@@ -12,8 +12,8 @@
 }
 
 
-.aboutus h4{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.aboutus h5{
+    font-weight: 400;
     padding-bottom: 4px;
 }
 

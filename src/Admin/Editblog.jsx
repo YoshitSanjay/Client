@@ -43,7 +43,7 @@ const Editblog = () => {
                         <div className="col-md-4 py-5 mx-auto">
                           <div className={AdminStyles.rapper}>
                             <form onSubmit={addUpdatedBlogData}>  
-                              <h1 className='mb-3'>Update Mechanic details</h1>
+                              <h1 className='mb-3'>Update Blog Desc.</h1>
                               <div className={AdminStyles.in}>
                               <div className='mb-4'>
                                 <input type='text' name='name' value={data.bname} onChange={changeblogData}  placeholder='Name' className='form-control'/>
