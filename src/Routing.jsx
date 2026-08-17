@@ -21,7 +21,7 @@ import Editservice from './Admin/Editservice'
 import Editmechanic from './Admin/Editmechanic'
 import Editblog from './Admin/Editblog'
 import Servdetails from './innerpages/Servdetails'
-import Nopage from './innerpages/Nopage'
+import Nopage from './Nopage'
 
 
 const Routing = () => {
